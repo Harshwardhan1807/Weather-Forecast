@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.main{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+    padding-top: 25%;
+    width: 55%;
+    float: left;
+}
+.title{
+    margin: 0;
+    height: 100vh;
+    background-color:#c3e6fe;
+}
+img{
+    margin: 0;
+    height: 100vh;
+    width: 45%;
+    float: right;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+}
+.middle{
+    text-align: left;
+    padding-left: 15%;
+   padding-top: 15%;
+   padding-bottom: 30%;
+   background-color:#c3e6fe;
+   position: absolute;
+   color: black;
+   width:85%;
+}
+.Current{
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    margin-top: 15%;
+    height: 30%;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 3%;
+    border-radius: 2%;
+    margin-left: 45%;
+}
+.future{
+    margin-top: 35%;
+    color: black;
+    width: 80vh;
+    position: absolute;
+    text-align: center;
+    margin-left: 50%;
+    display: flex;   
+}
+
+.future h2{
+    color: white;
+    font-size: 2rem;
+    margin: 5px 0px 0px -70px;
+    
+}
+.days-forecast{
+    margin-top: 12%;
+    margin-left: -100%;
+    width: 120vh;
+    gap: 30px;
+    display: flex;   
+}
+.card{
+    background: gray;
+    text-align: left;
+    padding-left: 20px;
+    width: 200px;
+    color: white;
+    margin-bottom: 0;
+}
+#head{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+input{
+    width: 15%;
+    padding: 8px 12px;
+    border: solid;
+}
+ul{
+    list-style-type: none;
+}
+
+.card img{
+    margin-top: -50px;
+    height: 150px;
+    width: 130px;
+}
+.icon{
+    margin-top: -50px;
+    height: 100px;
+    width: 100%;
+}
+
+.icon img{
+    height: 250px;
+    width: 250px;
+    margin-top: -200px;
+    margin-right: -10px;    
+}
+.icon h3{
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.des{
+    margin-right: -175px;
+}
+.btn {
+    line-height: 7;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #5765ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}  
+.btn:hover {
+    background: #5284f0;
+    text-decoration: none;
+}
